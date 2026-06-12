@@ -7,25 +7,25 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         System.out.println("Домашнее задание 5");
-        System.out.println("Задача 1 и 2");
+        System.out.println("Задача 1");
 
         int clientOS = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS == 1){
+        } else {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
         System.out.println("Задача 2");
         int clientOS1 = 1;
-        int yearOfProduction = 2014;
-        if (clientOS1 == 0 && yearOfProduction >= 2015) {
+        int clientDeviceYear = 2014;
+        if (clientOS1 == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS1 == 0 && yearOfProduction < 2015) {
+        } else if (clientOS1 == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
-        if (clientOS1 ==1 && yearOfProduction >= 2015) {
+        if (clientOS1 ==1 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
-        } else if (clientOS1 == 1 && yearOfProduction < 2015) {
+        } else if (clientOS1 == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
         System.out.println("задача 3");
